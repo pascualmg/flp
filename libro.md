@@ -1,4 +1,4 @@
-#Programación Funcional Ligera
+# Programación Funcional Ligera
 Nota: ten en cuenta que el libro original del autor es público
 y que esta traducción es meramente personal, por lo que 
 no me hago responsable de cualquier fallo en ella . 
