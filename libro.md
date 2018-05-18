@@ -65,7 +65,7 @@ var printMagicNumber = FP.pipe(
  ]
 );
 
-printMagicNumber(numbers);
+printMagicNumber(numbers);//OmG the magic has come!!!
 //**********************************************
 function constructMsg(v) { return `The magic number is ${v}`;} 
 function sum(x,y) { return x+y; }
