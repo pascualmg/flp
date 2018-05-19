@@ -6,7 +6,7 @@ Cambiaré cualquier cosa que me suene mal si considero que se adapta más al sig
 de entenderlo :P . 
 Aquí tienes el libro original https://github.com/getify/Functional-Light-JS si deseas ver la versión online 
 
-##Echando un Vistazo
+## Echando un Vistazo
 Ilustremos la noción de lo que podemos considerar "Functional-Light Javascript" con un trozo de codigo viendo el antes ( con objetos ) y un después ( con funcional ), ahí van: 
 
 ```javascript
