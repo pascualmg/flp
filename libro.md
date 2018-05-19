@@ -104,4 +104,10 @@ La confianza también se incrementa cuando se usan estas técnicas que previenen
  
 Conforme avances en tu viaje a través de este libro, empezarás a desarrollar mucha más confianza en el código que escribes, por que usarás patrones y prácticas que ya está muy bien probadas; y así evitarás todas las posibles causas comunes de bugs!!
 
-   
+## Comunicación
+
+Porqué es la programación funcional tan importante? Para responder a esto, necesitas dar un gran paso hacia atrás y preguntarte por qué la propia programación ,es importante.
+Te podrás sorprender al oír esto, pero no creo que el código sea primariamente un conjunto de instrucciones de código máquina. De hecho, actualmente, pienso que las instrucciones de codigo máquina son casi un feliz accidente.   
+
+Creo muy en el fondo que el principal papel del codigo es comunicarse con otros seres humanos.
+
