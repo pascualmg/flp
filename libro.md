@@ -100,6 +100,8 @@ Es cuando ejecutas el programa , y cruzas los dedos.
 
 A que me refiero con confianza? quiero decir que puedes verificar, leyendo y razonando, no solamente ejecutando, a que puedas entender todas y cada una de las líneas de código y que tengas claro _QUE HARAN_; No sólamente confiando en _QUE DEBERIAN_ de hacer. Más a menudo de lo que se podría considerar prudente, tendemos a confiar tanto en nuestros _Tests_ para verificar que el funcionamiento de nuestro programa es correcto. No quiero sugerir con esto que los test sean malos.Pero pienso que deberíamos de ser capaces a aspirar a entender nuestro código lo suficientemente bién que ya sepamos que va a pasar los test antes de ejecutarlos.
 
+La confianza también se incrementa cuando se usan estas técnicas que previenen, o minimizan las posibles fuentes de bugs. Este quizá sea el punto más usado para vender la FP: Los programas en FP, suelen tener muchos menos bugs, y los bugs que existen están en sitios que son localizados rápidamente por su evidencia, así que son mucho más fáciles de corregir. El código FP tiende a ser más "resistente a los bugs" ... aunque lógicamente no a prueba de ellos.
  
-    
+Conforme avances en tu viaje a través de este libro, empezarás a desarrollar mucha más confianza en el código que escribes, por que usarás patrones y prácticas que ya está muy bien probadas; y así evitarás todas las posibles causas comunes de bugs!!
+
    
