@@ -98,7 +98,7 @@ Además a la inversa también es cierto:
 Además si ni puedes confiar ni entender tu código, entonces tampoco puedes tener ninguna confianda  en que que el codigo que escribes sea adecuado para la tarea.
 Es cuando ejecutas el programa , y cruzas los dedos.
 
-A que me refiero con confianza? quiero decir que puedes verificar, leyendo y razonando, no solamente ejecutando, a que puedas entender todas y cada una de las líneas de código y que tengas claro _QUE HARAN_; No sólamente confiando en _QUE DEBERIAN_ de hacer. Más a menudo de lo que se podría considerar prudente, tendemos a confiar tanto en nuestros _Tests_ para verificar que el funcionamiento de nuestro programa es correcto. No quiero sugerir con esto que los test sean malos.Pero pienso que deberíamos de ser capaces a aspirar a ser capacez de entender nuestro código lo suficientemente bién que ya sepamos que va a pasar los test antes de ejecutarlos.
+A que me refiero con confianza? quiero decir que puedes verificar, leyendo y razonando, no solamente ejecutando, a que puedas entender todas y cada una de las líneas de código y que tengas claro _QUE HARAN_; No sólamente confiando en _QUE DEBERIAN_ de hacer. Más a menudo de lo que se podría considerar prudente, tendemos a confiar tanto en nuestros _Tests_ para verificar que el funcionamiento de nuestro programa es correcto. No quiero sugerir con esto que los test sean malos.Pero pienso que deberíamos de ser capaces a aspirar a entender nuestro código lo suficientemente bién que ya sepamos que va a pasar los test antes de ejecutarlos.
 
  
     
