@@ -71,7 +71,8 @@ function constructMsg(v) { return `The magic number is ${v}`;}
 function sum(x,y) { return x+y; }
 
 ```
+Una vez que Entiendes como funciona FP y la Funcional-ligera , es como si literalmente del segundo snippet mentalmente hubieras leido esto:
+> Vamos a crear primero una función que se llama , sumOnlyFavorites(..) que es la combilación de 3 funciones . Combinamos 2 filtros, uno que chequea si el valor es mayor o igual que el 10 y otro si es menor o igual que 20. Entoneces incluimos el reductor suma a la composición del transductor.La función resultante sumOnlyFavorites(..) es un reductor que comprueba que el valor pasado en ambos filtros , y si es así suma el valor en el acumulador ( acc para los amigos)
 
-
-
+>Entonces nos hacemos otra función llamada printMagicNumber(..) la cual reduce una lista de numeros usando esa función reductora sumOnlyFavorites(..) que acabamod de definir, resultando en un sumatorio que contiene únicamente los números que pasen los _checks de favoritos_. Tras ello pritnMagicNumber(..) _pipea_  esa suma final a construcMsg(..) , el cual crea una string que finalmente también se le pasa a console.log. 
 
