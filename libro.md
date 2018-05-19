@@ -76,3 +76,14 @@ Una vez que Entiendes como funciona FP y la Funcional-ligera , es como si litera
 
 >Entonces nos hacemos otra función llamada printMagicNumber(..) la cual reduce una lista de numeros usando esa función reductora sumOnlyFavorites(..) que acabamos de definir, resultando en un sumatorio que contiene únicamente los números que pasen los _checks de favoritos_. Tras ello pritnMagicNumber(..) _pipea_  esa suma final a construcMsg(..) , el cual crea una string que finalmente también se le pasa a console.log. 
 
+Toda esta mierda es la que suena en la cabeza de un FP developer y es normal que te suene a chino, este libro te ayudará a hablar ese chino de tal forma que puedas leer ese tipo de códigos y los entiendas como cualquier otro ... si no más.
+
+Algunas otras observaciones interesantes respecto a la comparación de los 2 snippets:
+
+   * Así lo pueden ver la mayoría de lectores, el primer fragmento parece más confortable/legible/mantenible que el segundo. Si es tu caso es normal y está bien, de hecho es que estás donde tienes que estar. Confío en que si sigues este libro y practicas los temas de los que se hablan, el segundo snippet poco a poco se hirá haciendo mucho más entendible y será de forma natural, incluso terminarás prefiriendolo.
+    
+   * Hubiera hecho lo mismo pero de direrente forma al snippet presentado. Eso está bien también , este libro no pretende para nada decirte como tienes que hacer las cosas ni quiere dictar como hacer las cosas de una manera concreta. La meta es ilustrar únicamente pros y contras de los 2 patrones que ahí entran en juego de tal forma que te permita ser capaz de decidir cual usar según te convenga. Al final de este libro, el cómo afrontes la tarea quizá se parezca más a lo que has visto en el 2 snippet que ahora.
+    
+   * También es posible  
+    
+   
