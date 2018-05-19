@@ -110,4 +110,12 @@ Porqué es la programación funcional tan importante? Para responder a esto, nec
 Te podrás sorprender al oír esto, pero no creo que el código sea primariamente un conjunto de instrucciones de código máquina. De hecho, actualmente, pienso que las instrucciones de codigo máquina son casi un feliz accidente.   
 
 Creo muy en el fondo que el principal papel del codigo es comunicarse con otros seres humanos.
+Sabes posiblemente por experirencia propia que es horrible cuando pasas la mayor parte del tiempo "codificando" y en reaalidad lo que estás haciedo es leer código existente. Muy pocos de nosotros , somos tan privilegiados como para pasarnos la mayor parte del tiempo picando código nuevo y nunca teniendo que lidiar con el código de otros han escrito ( o nuestro YO del pasado ).
 
+Se estima a grosso modo que los desarrolladores pasan un 70% del tiempo que pasan manteniendo código leyendo lo que ya hay escrito para poder entenderlo. Eso ciertamente es algo revelador. 70%. No importa que la media de líneas de código que pica un programador sean 10, pasamos hasta 7 horas del día leyendo código para hacernos una idea de donde y como tienen que ir esas líneas de código!!
+
+Tenemos entonces que centrarnos precisamente en la legibilidad de nuestro código. Y por cierto, legibilidad no va de unos cuantos caracteres.
+
+> __La Legibilidad se ve más impactada por la familiaridad__ ("Learning a metric for Code Readability) 
+
+Si vamos a pasar nuestro tiempo preocupados por hacer código qeu será más legible y entendible,la FP va a ser el pilar central de ese esfuerzo. Los principios de la FP están ya muy bien establecidos, profundamente estudiados e investigados y probablemente verificables. Si te tomas el tiempo necesario y luego empleas estos principios de la FP al final llegarás a códigos más entendibles , y legibles por tí y por los demás. 
