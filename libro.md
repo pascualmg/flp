@@ -88,12 +88,18 @@ Algunas otras observaciones interesantes respecto a la comparación de los 2 sni
    
 Sean cueles sean tus razones para leer este libro, bienvenido seas.
 
-## Confiencia
-
+## Confianza
 Tengo una premisa muy simple que siempre subyace en todo lo que hago como profesor de JS, y es que:
-> __Code that you cannot trust is code that you not understand__ _Codigo en el que no puedes confiar es codigo que no entiendes_
+> __Code that you cannot trust is code that you not understand__ _El codigo en el que no puedes confiar es codigo que no entiendes_
 
+Además a la inversa también es cierto:
+>    Codigo que no entiendas es código en el que no confías. 
 
-    
+Además si ni puedes confiar ni entender tu código, entonces tampoco puedes tener ninguna confianda  en que que el codigo que escribes sea adecuado para la tarea.
+Es cuando ejecutas el programa , y cruzas los dedos.
+
+A que me refiero con confianza? quiero decir que puedes verificar, leyendo y razonando, no solamente ejecutando, a que puedas entender todas y cada una de las líneas de código y que tengas claro _QUE HARAN_; No sólamente confiando en _QUE DEBERIAN_ de hacer. Más a menudo de lo que se podría considerar prudente, tendemos a confiar tanto en nuestros _Tests_ para verificar que el funcionamiento de nuestro programa es correcto. No quiero sugerir con esto que los test sean malos.Pero pienso que deberíamos de ser capaces a aspirar a ser capacez de entender nuestro código lo suficientemente bién que ya sepamos que va a pasar los test antes de ejecutarlos.
+
+ 
     
    
