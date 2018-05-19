@@ -118,4 +118,12 @@ Tenemos entonces que centrarnos precisamente en la legibilidad de nuestro códig
 
 > __La Legibilidad se ve más impactada por la familiaridad__ ("Learning a metric for Code Readability) 
 
-Si vamos a pasar nuestro tiempo preocupados por hacer código qeu será más legible y entendible,la FP va a ser el pilar central de ese esfuerzo. Los principios de la FP están ya muy bien establecidos, profundamente estudiados e investigados y probablemente verificables. Si te tomas el tiempo necesario y luego empleas estos principios de la FP al final llegarás a códigos más entendibles , y legibles por tí y por los demás. 
+Si vamos a pasar nuestro tiempo preocupados por hacer código qeu será más legible y entendible,la FP va a ser el pilar central de ese esfuerzo. Los principios de la FP están ya muy bien establecidos, profundamente estudiados e investigados y probablemente verificables. Si te tomas el tiempo necesario y luego empleas estos principios de la FP al final llegarás a códigos más entendibles , y legibles por tí y por los demás. Cuanto más te familiarices con el código, y seas consciente de ello, mejorará tu legibilidad del código.
+
+Por ejemplo, una vez que aprendas lo que hace la __map()__, serás capaz casi instantáneamente de detectar y entender que hace en cuanto la veas en cada programa.  Pero cada vez que veas un for-loop, vas a tener que leer el for entero para entenderlo.La sintaxis del for-loop te puede resultar muy familiar, pero el meollo de que está haciendo seguro que no tanto, y tiene que ser leído cada vez.
+
+Teniendo más código que es reconocible a primera vista, y por ende pasando menos tiempo imaginando que hace ese código, unuestro foco está libre de pensar en niveles superiores de la lógica del programa; Esto es el tema más importante y al que debemos prestar más atención.
+
+Fp ( al menos , sin toda la terminología que le subyace) es una de las más efectivas herramientas para obtener codigo legible, __Por eso es tan importante__.
+
+## Legilibilidad. 
