@@ -84,6 +84,16 @@ Algunas otras observaciones interesantes respecto a la comparación de los 2 sni
     
    * Hubiera hecho lo mismo pero de direrente forma al snippet presentado. Eso está bien también , este libro no pretende para nada decirte como tienes que hacer las cosas ni quiere dictar como hacer las cosas de una manera concreta. La meta es ilustrar únicamente pros y contras de los 2 patrones que ahí entran en juego de tal forma que te permita ser capaz de decidir cual usar según te convenga. Al final de este libro, el cómo afrontes la tarea quizá se parezca más a lo que has visto en el 2 snippet que ahora.
     
-   * También es posible  
+   * También es posible que seas un curtido ya FP developer, y que solamente ojeaba el principio del libro a ver si había algo que no supiera interesante que leer. Ciertametne, ese segundo snippet tiene muchas cosas que son familiares.Pero me apuesto lo algo a que has pensado, "Hmmmmm, yo lo habría echo de esta otra forma..." un par de veces. Y eso también está bien, y es perfectametne razonable. Pero este no es un libro ortodoxo ni tradicionalista en cuanto a FP, algunas veces se hace más de una heregía en las soluciones. Lo que se pretende con esto es precisamente conseguir un balance pargmático entre los claros e innegables beneficios de la FP y la necesidad de hacer un codigo en JS mantenible sin tener que escalar una gran montaña de notación matemática y terminología. esto no es la FP que tu conoces ... es "Programación funcional ligera".
+   
+Sean cueles sean tus razones para leer este libro, bienvenido seas.
+
+## Confiencia
+
+Tengo una premisa muy simple que siempre subyace en todo lo que hago como profesor de JS, y es que:
+> __Code that you cannot trust is code that you not understand__ _Codigo en el que no puedes confiar es codigo que no entiendes_
+
+
+    
     
    
