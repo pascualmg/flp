@@ -148,10 +148,24 @@ El foco cambia de ser de un bajo-nivel _como_ a un nivel algo superior de _que t
 
 En vez de ensuciar con un if para testear un número , delegamos eso en una bien-conocida utilidad FP como el gte ( greater-than-or-equal-to) , y entoences , nos centramos más en lo importante que es realmente , combinar ese filtro con otro en una composición con la función sumatorio.
 
-Además , el flujo de datos a trafvés de segundo programa es explítico: 
+Además , el flujo de datos a través de segundo programa es explítico: 
 
 1. Una lista de números va a printMagicNumber(..)
 2. Del tirón son procesados por sumOnlyFavorites(..), resultando de ello un único número con el total de solamente los del tipo favorito.
 3. Ese total se convierte a una string que forma el mensaje con construcMsg(..).
 4. La cadena con el mensaje es mostrada por console.log(..).
+
+Aún puedes estar pensando que esta solución es complejilla , y que el snippet imperativo es mucho más facil de entender, eso es por que estás mucho más acostumbrado;La familiaridad tiene en tí una profunda influencia en tu percepción de la legibilidad. Por el final de este libro , espero , habrás internalizado los beneficios de la solución del segundo snippet. Esa familiaridad hará que florezca la legibilidad.
+
+Se que te estoy pidiendo que des un salto de fé.
+
+Cuesta mucho esfuerzo, a veces mucho más código, el mejorar la legibilidad como te comento, y minimizar o eliminar muchos de los errores que luego conducen a bugs.
+De verdad honestamente, cuando empecé a escribir este libro, nunca había podido haber escrito ( o incluso entenderlo perfectamente!!!) el segundo snippet. Pero como ahora mismo ya estoy mucho más lejos en mi viaje de aprendizaje se ha convertido en algo más nanutal y conformable.
+
+Si ya estás pensando que refactorizar en FP es la panacea, que en nada transformará tu código en algo más elegante , chulo , listo , resistente y conciso ... podría parecerlo a corto plazo. Por desgracia nada que ver con la realidad ^^ 
+
+La FP es una manera muy diferente de pensar en como se puede estructurar el código, para conseguir que el flujo de datos sea mucho más obvio y ayudar al lector de ese código a que siga lo que estabas pensando. Tomará tiempo, y esfuerzo. Y este esfuerzo es de esos que de verdad valen la pena, pero puede ser un arduo viaje.
+
+Aún me cuestan muchos intentos ,refactorizar un snippet imperativo a uno que sea más declarativo usando FP antes de que consiga dejarlo de tal forma que considere que después voy a poder entenderlo perfectamente y que se queda lo suficientemente legible.Me he dado cuenta ,que el refactor de imperativos a declarativos con FP es un proceso lento más que un cambio instantáneo entre un paradigma y otro.
+
 
