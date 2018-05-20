@@ -129,5 +129,29 @@ Fp ( al menos , sin toda la terminología que le subyace) es una de las más efe
 ## Legilibilidad. 
 
 La legibilidad no es una característica binaria , Es mucho más un factor subjetivo totalmente humano que se describe con la relación entre tu código. Y de manera natural con el paso del tiempo y conforme mejoren tus habilidades y conocimiento también irá mejorando
+He experimentado efectos similares a los de la figura y anecdóticamente coincide con la experiencia de muchos otros.
 
-[imagen]:https://github.com/getify/Functional-Light-JS/blob/master/manuscript/images/fig17.png
+ https://github.com/getify/Functional-Light-JS/blob/master/manuscript/images/fig17.png
+
+Podrias estar notando ya lo mismo, pero aguanta si insistes la curva pronto empezará a subir.
+
+_código imperativo_ describe el código que posiblemente ya escribes de manera natural;Se centra precisamente decirle a la máquina _como_ hacer algo.
+_Código declarativo_ - osea del tipo que vamos a aprender y el cual se adhiere a los principios de la FP- is código que se centra más en describir _que es_ el resultado.
+
+Revisitemos los 2 snippets presentados antes.
+
+El primero es _imperativo_, centrado casi enteramente en _como_ hacer la tarea; está lleno de sucios *ifs* , *fors*, y variables temporales, reasignaciones, mutaciones de valores, llamadas a función con efectos colaterales , y flujo implícito de datos entre funciones. Podrías desde luego si quieres seguir el flujo de la lógica y ver como los números fluyen y cambian hacia el final del estado, pero no está todo tan claro ni es tan sencillo como parece.
+
+El segundo snipped es mucho más declarativo; Elimina la mayoría de esas antes mencionadas técnicas imperativas. Fijate bien en que no hay condicionales explícitos, loops , efectos colaterales, reasignaciones , o mutaciones; Por supuesto , emplea los ampliamente bien conocidos (si estás metido en el mundo de la FP!!) y confiables patrones como el de filtrado , reducción , transducción y composición.
+
+El foco cambia de ser de un bajo-nivel _como_ a un nivel algo superior de _que tiene que dar_
+
+En vez de ensuciar con un if para testear un número , delegamos eso en una bien-conocida utilidad FP como el gte ( greater-than-or-equal-to) , y entoences , nos centramos más en lo importante que es realmente , combinar ese filtro con otro en una composición con la función sumatorio.
+
+Además , el flujo de datos a trafvés de segundo programa es explítico: 
+
+1. Una lista de números va a printMagicNumber(..)
+2. Del tirón son procesados por sumOnlyFavorites(..), resultando de ello un único número con el total de solamente los del tipo favorito.
+3.Ese total se convierte a una string que forma el mensaje con construcMsg(..).
+4.La cadena con el mensaje es mostrada por console.log(..).
+
