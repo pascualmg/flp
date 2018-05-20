@@ -152,6 +152,6 @@ Además , el flujo de datos a trafvés de segundo programa es explítico:
 
 1. Una lista de números va a printMagicNumber(..)
 2. Del tirón son procesados por sumOnlyFavorites(..), resultando de ello un único número con el total de solamente los del tipo favorito.
-3.Ese total se convierte a una string que forma el mensaje con construcMsg(..).
-4.La cadena con el mensaje es mostrada por console.log(..).
+3. Ese total se convierte a una string que forma el mensaje con construcMsg(..).
+4. La cadena con el mensaje es mostrada por console.log(..).
 
