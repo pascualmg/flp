@@ -160,12 +160,16 @@ Aún puedes estar pensando que esta solución es complejilla , y que el snippet 
 Se que te estoy pidiendo que des un salto de fé.
 
 Cuesta mucho esfuerzo, a veces mucho más código, el mejorar la legibilidad como te comento, y minimizar o eliminar muchos de los errores que luego conducen a bugs.
-De verdad honestamente, cuando empecé a escribir este libro, nunca había podido haber escrito ( o incluso entenderlo perfectamente!!!) el segundo snippet. Pero como ahora mismo ya estoy mucho más lejos en mi viaje de aprendizaje se ha convertido en algo más nanutal y conformable.
+De verdad honestamente, cuando empecé a escribir este libro, nunca había podido haber escrito ( o incluso entenderlo perfectamente!!!) el segundo snippet. Pero como ahora mismo ya estoy mucho más lejos en mi viaje de aprendizaje se ha convertido en algo más natural y conformable.
 
 Si ya estás pensando que refactorizar en FP es la panacea, que en nada transformará tu código en algo más elegante , chulo , listo , resistente y conciso ... podría parecerlo a corto plazo. Por desgracia nada que ver con la realidad ^^ 
 
 La FP es una manera muy diferente de pensar en como se puede estructurar el código, para conseguir que el flujo de datos sea mucho más obvio y ayudar al lector de ese código a que siga lo que estabas pensando. Tomará tiempo, y esfuerzo. Y este esfuerzo es de esos que de verdad valen la pena, pero puede ser un arduo viaje.
 
 Aún me cuestan muchos intentos ,refactorizar un snippet imperativo a uno que sea más declarativo usando FP antes de que consiga dejarlo de tal forma que considere que después voy a poder entenderlo perfectamente y que se queda lo suficientemente legible.Me he dado cuenta ,que el refactor de imperativos a declarativos con FP es un proceso lento más que un cambio instantáneo entre un paradigma y otro.
+
+También le aplico el test "enseñalo después" a cada trozo de código que escribo. Tras escribirlo, Lo dejo reposar unas cuantas horas o días, entondces vuelvo e intento leerlo con nuesvos ojos , y finjo que necesito tener que explicarlo a alguien. Normalmente y normalmente me confunden los primeros pasos , así que lo tuneo y repito!
+
+Con esto no intento desalentar a vuestros espíritus, realmente lo que quiero que que paseis a través de la malas hiervas. Estoy orgulloso por que yo ya lo hice, I finalmente ya empiezo a ver como esa curva de legilibilidad va ya subiendo. El esfuerzo ha merecido la pena, y también a tí te la merecerá.
 
 
