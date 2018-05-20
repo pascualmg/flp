@@ -127,3 +127,7 @@ Teniendo más código que es reconocible a primera vista, y por ende pasando men
 Fp ( al menos , sin toda la terminología que le subyace) es una de las más efectivas herramientas para obtener codigo legible, __Por eso es tan importante__.
 
 ## Legilibilidad. 
+
+La legibilidad no es una característica binaria , Es mucho más un factor subjetivo totalmente humano que se describe con la relación entre tu código. Y de manera natural con el paso del tiempo y conforme mejoren tus habilidades y conocimiento también irá mejorando
+
+[imagen]:https://github.com/getify/Functional-Light-JS/blob/master/manuscript/images/fig17.png
